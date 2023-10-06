@@ -1,0 +1,170 @@
+// Shared css classes or global styles
+.v-card {
+  box-shadow: none !important;
+  color: #111256 !important;
+  background: #fff !important;
+  border-radius: 20px !important;
+  border: 1px solid #dce2f1 !important;
+
+  .v-card-item__prepend {
+    .v-avatar {
+      background-color: #f0f0fb;
+      border-radius: 10px;
+    }
+  }
+
+  .v-card-item {
+    padding: 16px;
+  }
+}
+
+.v-btn-toggle {
+  padding: 5px;
+  border-radius: 50px !important;
+  background: #eff1f8 !important;
+
+  .v-btn {
+    background: transparent !important;
+    border-radius: 50px !important;
+  }
+
+  .v-btn--active {
+    background-color: #5f63d7 !important;
+  }
+
+  .v-btn__overlay {
+    opacity: 0 !important;
+  }
+
+  .v-btn__content {
+    margin-top: -3px;
+  }
+}
+
+// Global utility classes
+
+.user-pic-container {
+  width: 42px;
+  height: 42px;
+  i,
+  img {
+    width: 100%;
+    height: 100%;
+    border-radius: 13px;
+  }
+}
+
+.user-pic-container-large {
+  width: 64px;
+  height: 64px;
+  i,
+  img {
+    width: 100%;
+    height: 100%;
+    border-radius: 13px;
+  }
+}
+
+.bold {
+  font-weight: 600 !important;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.h-full {
+  height: 100%;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.bordered-min {
+  border-radius: 10px !important;
+  border: 1px solid #dce2f1 !important;
+}
+
+.bordered {
+  border-radius: 20px !important;
+  border: 1px solid #dce2f1 !important;
+}
+
+.colored-border {
+  border: 1px solid #5f63d7 !important;
+}
+
+.centered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.apart {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.border-bottom {
+  border-bottom: 1px solid #dce2f1 !important;
+}
+
+// Tiny MCE Editor
+.tox-tinymce {
+  border: none !important;
+}
+.tox-toolbar__primary {
+  background: none !important;
+}
+.tox .tox-toolbar__group {
+  border: none !important;
+}
+.tox .tox-statusbar {
+  display: none !important;
+}
+
+// Quill Editor
+
+.ql-toolbar.ql-snow {
+  border-left: none !important;
+  border-right: none !important;
+  border-top: none !important;
+}
+
+.ql-container.ql-snow {
+  border-left: none !important;
+  border-right: none !important;
+  border-bottom: none !important;
+}
+
+.ql-editor {
+  padding-bottom: 60px !important;
+  &::-webkit-scrollbar {
+    width: 6px;
+    background: transparent;
+  }
+
+  &::-webkit-scrollbar-track {
+    box-shadow: none;
+    background: transparent;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: #5f63d7;
+    border-radius: 5px;
+  }
+
+  &::-webkit-scrollbar-track-piece:start {
+    margin-top: 0px;
+  }
+
+  &::-webkit-scrollbar-track-piece:end {
+    margin-bottom: 60px;
+  }
+}
+
+.max-width-250 {
+  max-width: 250px;
+}

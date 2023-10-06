@@ -1,0 +1,40 @@
+$body-font-family: 'Poppins', sans-serif;
+$font-size-l: 18px;
+$font-size-m: 16px;
+$font-size-s: 14px;
+$font-size-xs: 12px;
+$font-size-xxs: 10px;
+
+// Vuetify overrides
+@use 'vuetify/styles' with (
+  $body-font-family: $body-font-family,
+  // $button-font-size: $font-size-m,
+  $typography:
+    (
+      'h5': (
+        'size': $font-size-l,
+        'weight': 500,
+        'line-height': normal,
+      ),
+      'h6': (
+        'size': $font-size-m,
+        'weight': 400,
+        'line-height': normal,
+      ),
+      'body-1': (
+        'size': $font-size-s,
+        'weight': 400,
+        'line-height': normal,
+      ),
+      'body-2': (
+        'size': $font-size-xs,
+        'weight': 400,
+        'line-height': normal,
+      ),
+      'caption': (
+        'size': $font-size-xxs,
+        'weight': 400,
+        'line-height': normal,
+      ),
+    )
+);
